@@ -6,7 +6,5 @@ import { template } from'./template.js';
 
 const templateObject = processTemplate(template);
 
-console.log('templateObject', templateObject[0].childrens)
-
-createTemplate(templateObject)
-createCSS(templateObject)
+createTemplate(templateObject);
+createCSS(templateObject);
